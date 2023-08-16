@@ -1,0 +1,142 @@
+body {
+    background-color: black;
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    opacity: 0.9;
+    display: block;
+
+}
+header img {
+    height: 50px;
+    margin-left: 10px;
+}
+.menu {
+    display: inline;
+}
+li {
+    display: inline-flex;
+    text-decoration: underline;
+    flex-flow: nowrap;
+
+}
+header {
+    margin: auto;
+    display: flex;
+    border-bottom: 1px solid seashell;
+    background-color: black;
+    justify-content: space-between;
+    height: 69px;
+}
+/*.background {
+    height: 700px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1200px;
+} */
+.mission {
+    background-image: url(./img-mission-background.jpeg);
+    width: 1200px;
+    height: 700px;
+    justify-content:center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.mission_words {
+    background-color: black;
+    display: inline-block;
+    height: fit-content;
+    width: 1200px;
+
+}
+.our_mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.our_mission_words {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tea {
+    margin: auto;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.gallery {
+    display: inline-flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.image {
+    width: 300px;
+    height: 200px;
+    padding-right: 10px;
+    padding-top: 10px;
+
+}
+
+.fig1 {
+    display: inline-flex;
+}
+.fig2 {
+    display: inline-flex;
+}
+figcaption {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+}
+.locations h2 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+.location_names {
+    display: inline-flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding-right: 40px;
+}
+.locations {
+    background-image: url(./img-locations-background.jpeg);
+    width: 1200px;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    margin: auto auto;
+
+}
+.location_names h3 {
+    background-color: black;
+    width: 300px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: row;
+    align-items: center;
+}
+.contact_us {
+    height: 200px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    text-align: left;
+    margin-left: 20px;
+    font-size: 10px;
+}
